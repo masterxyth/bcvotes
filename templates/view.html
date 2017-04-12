@@ -8,7 +8,7 @@
 <title>Simple tables</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>
-  <h1>Candidates</h1>
+  <h1>BC Votes 2017</h1>
   <input type="text" id="search" onkeyup="search()" placeholder="Search for names, riding, or party">
   {% for table in tables %}
     <h2>{{titles[loop.index]}}</h2>
