@@ -10,7 +10,15 @@
 <body>
 
 <div class=page>
-  <h1>BC Votes 2017</h1>
+  <header>
+    <h1>BC Votes 2017</h1>
+    <p>A helpful election guide.</p>
+    <div class="votedate">
+      <h2>May 9th</h2>
+      <h3>8 a.m. to 8 p.m.</h3>
+    </div>
+  </header>
+
   <input type="text" id="search" onkeyup="search()" placeholder="Search for names, riding, or party">
   {% for table in tables %}
     <h2>{{titles[loop.index]}}</h2>
