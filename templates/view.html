@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<div class=page>
+<div class="page">
   <header>
     <div class="left-header">
       <h1>BC Votes 2017</h1>
-      <p>A helpful election guide.</p>
+      <p>Find the candidates who are running in the British Columbia 2017 provincial election for your riding.</p>
     </div>
     <div class="right-header">
       <div class="votedate">
@@ -23,12 +23,17 @@
     </div>
   </header>
 
+<div class="search">
   <input type="text" id="search" onkeyup="search()" placeholder="Search for names, riding, or party">
+  </div>
+
+<div class="table">
   {% for table in tables %}
-    <h2>{{titles[loop.index]}}</h2>
+    <!-- <h2>{{titles[loop.index]}}</h2> -->
     {{ table|safe }}
   {% endfor %}
-</div>
+  </div>
+</div> <!-- end page -->
 <script src='{{ url_for('static', filename='script.js')}}'></script>
 </body>
 </html>

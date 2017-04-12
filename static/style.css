@@ -6,51 +6,73 @@ body {
 
 .page {
   display: grid;
-  /*grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   grid-template-areas:
-  "header header";*/
+  "header header"
+  "search search"
+  "table table";
 }
 
 .left-header {
-  grid-area: left-header;
+    grid-area: left-header;
 }
 
 .right-header {
-  display: flex;
-  justify-content: flex-end;
-  grid-area: right-header;
+  padding-top:1em;
+    display: flex;
+    justify-content: flex-end;
+    grid-area: right-header;
 }
 
 header {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:
-  "left-header right-header";
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "left-header right-header";
+    margin-top: 1em;
 }
 
 @media only screen and (min-width: 600px) {
-  .page {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .page {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
 
 /* Typography */
 
 h1 {
-  font-size: 4.5em;
-  font-weight: 300; /*Light*/
+    font-size: 4.5em;
+    font-weight: 300;
+    /*Light*/
+    margin: 0;
 }
 
 h2 {
-  font-size: 2em;
-  font-weight: 700; /*Bold*/
+    font-size: 2em;
+    font-weight: 700;
+    /*Bold*/
+    margin:0;
+}
+
+p {
+  line-height: 1.5em;
+  margin-top: .5em;
+}
+
+.votedate p {
+  text-align: right;
+}
+
+.table {
+  grid-area: table;
+  margin-top: 2em;
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 table.dataframe, .dataframe th, .dataframe td {
@@ -60,38 +82,31 @@ table.dataframe, .dataframe th, .dataframe td {
     padding: 1.5em;
 }
 
-.data th {
-    background-color: #add8e6;
-    color: white;
-}
-
-#search {
-    background-image: url('searchicon.png');
-    /* Add a search icon to input */
-    background-position: 10px 12px;
-    /* Position the search icon */
-    background-repeat: no-repeat;
-    /* Do not repeat the icon image */
-    width: 100%;
-    /* Full-width */
-    font-size: 16px;
-    /* Increase font-size */
-    padding: 12px 20px 12px 40px;
-    /* Add some padding */
-    border: 1px solid #ddd;
-    /* Add a grey border */
-    margin-bottom: 12px;
-    /* Add some space below the input */
-}
-
-tr:nth-child(odd) {
+.data thead {
     background-color: #eee;
 }
 
-tr:nth-child(even) {
-    background-color: #fff;
+.search {
+  grid-area: search;
+  margin-top: 2em;
 }
 
-tr:hover {
+#search {
+    font-size: 1.5em;
+    padding: .5em;
+    border: none;
+    background-color: #eee;
+    width: 100%;
+}
+
+tr:nth-child(odd) {
+
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tbody tr:hover {
     background-color: #ffff99;
 }
