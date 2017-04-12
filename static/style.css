@@ -6,6 +6,26 @@ body {
 
 .page {
   display: grid;
+  /*grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "header header";*/
+}
+
+.left-header {
+  grid-area: left-header;
+}
+
+.right-header {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: right-header;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "left-header right-header";
 }
 
 h1 {
