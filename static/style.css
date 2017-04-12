@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 body {
     font-family: "Roboto", "Lucida Grande", sans-serif;
@@ -8,6 +8,15 @@ body {
   display: grid;
 }
 
+h1 {
+  font-size: 4.5em;
+  font-weight: 300; /*Light*/
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700; /*Bold*/
+}
 
 table.dataframe, .dataframe th, .dataframe td {
     border: none;
