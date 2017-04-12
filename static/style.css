@@ -28,6 +28,15 @@ header {
   "left-header right-header";
 }
 
+@media only screen and (min-width: 600px) {
+  .page {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Typography */
+
 h1 {
   font-size: 4.5em;
   font-weight: 300; /*Light*/
@@ -36,6 +45,11 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 700; /*Bold*/
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table.dataframe, .dataframe th, .dataframe td {
