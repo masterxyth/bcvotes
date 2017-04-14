@@ -1,47 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
+/* Typography */
+
 body {
     font-family: "Roboto", "Lucida Grande", sans-serif;
 }
 
-.page {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "header header" "search search" "table table";
-}
-
-.left-header {
-    grid-area: left-header;
-}
-
-.right-header {
-    padding-top: 1em;
-    display: flex;
-    justify-content: flex-end;
-    grid-area: right-header;
-}
-
-header {
-    grid-area: header;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "left-header right-header";
-    margin-top: 1em;
-}
-
-@media only screen and (min-width: 600px) {
-    .page {
-        max-width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-
-/* Typography */
-
 h1 {
-    font-size: 4.5em;
+    font-size: 2em;
     font-weight: 300;
     /*Light*/
     margin: 0;
@@ -49,7 +15,6 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 700;
     /*Bold*/
     margin: 0;
 }
@@ -59,18 +24,63 @@ p {
     margin-top: .5em;
 }
 
+
+/* Grid Layout */
+
+.page {
+  margin-top: 1em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: "left-header right-header" "search search" "table table";
+}
+
+.left-header {
+    grid-area: left-header;
+}
+
+.right-header {
+    padding-top: 1em;
+    grid-area: right-header;
+}
+
 .votedate {
     text-align: right;
 }
 
 .votedate h5 {
-  margin: 0 0 .25em 0;
-  font-weight: normal;
+    margin: 0 0 .25em 0;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .table {
     grid-area: table;
     margin-top: 2em;
+}
+
+.search {
+    grid-area: search;
+    margin-top: 2em;
+    border-bottom: 4px solid #000;
+}
+
+
+/* Media Queries for responsive behaviour */
+
+@media only screen and (min-width: 600px) {
+    h1 {
+    }
+    .page {
+      /*grid-template-columns: 75% 25%;*/
+      grid-template-areas: "left-header right-header" "search search" "table table";
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-header {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 table {
@@ -86,11 +96,6 @@ table.dataframe, .dataframe th, .dataframe td {
 
 .data thead {
     background-color: #eee;
-}
-
-.search {
-    grid-area: search;
-    margin-top: 2em;
 }
 
 #search {
