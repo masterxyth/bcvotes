@@ -2,6 +2,11 @@
 
 /* Typography */
 
+html {
+    overflow-y: scroll;
+}
+
+
 body {
     font-family: "Roboto", "Lucida Grande", sans-serif;
 }
@@ -35,6 +40,7 @@ p {
 }
 
 .left-header {
+    padding-top: 1em;
     grid-area: left-header;
 }
 
