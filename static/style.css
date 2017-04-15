@@ -1,36 +1,118 @@
-body            { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
-a, h1, h2       { color: #377ba8; }
-h1, h2          { margin: 0; }
-h1              { border-bottom: 2px solid #eee; }
-h2              { font-size: 1.2em; }
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
-table.dataframe, .dataframe th, .dataframe td {
-  border: none;
-  border-bottom: 1px solid #C8C8C8;
-  border-collapse: collapse;
-  text-align:left;
-  padding: 10px;
-  margin-bottom: 40px;
-  font-size: 0.9em;
+/* Typography */
+
+body {
+    font-family: "Roboto", "Lucida Grande", sans-serif;
 }
 
-.data th {
-    background-color: #add8e6;
-    color: white;
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+    /*Light*/
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    /*Bold*/
+    margin: 0;
+}
+
+p {
+    line-height: 1.5em;
+    margin-top: .5em;
+}
+
+
+/* Grid Layout */
+
+.page {
+  margin-top: 1em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: "left-header right-header" "search search" "table table";
+}
+
+.left-header {
+    grid-area: left-header;
+}
+
+.right-header {
+    padding-top: 1em;
+    grid-area: right-header;
+}
+
+.votedate {
+    text-align: right;
+}
+
+.votedate h5 {
+    margin: 0 0 .25em 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.table {
+    grid-area: table;
+    margin-top: 2em;
+}
+
+.search {
+    grid-area: search;
+    margin-top: 2em;
+    border-bottom: 4px solid #000;
+}
+
+
+/* Media Queries for responsive behaviour */
+
+@media only screen and (min-width: 600px) {
+    h1 {
+    }
+    .page {
+      /*grid-template-columns: 75% 25%;*/
+      grid-template-areas: "left-header right-header" "search search" "table table";
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-header {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+table.dataframe, .dataframe th, .dataframe td {
+    border: none;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 1.5em;
+}
+
+.data thead {
+    background-color: #eee;
 }
 
 #search {
-    background-image: url('searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    box-sizing: border-box;
+    font-size: 1.25em;
+    padding: 1em;
+    border: none;
+    background-color: #eee;
+    width: 100%;
 }
 
-tr:nth-child(odd)		{ background-color:#eee; }
-tr:nth-child(even)	{ background-color:#fff; }
+tr:nth-child(odd) {}
 
-tr:hover            { background-color: #ffff99;}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tbody tr:hover {
+    background-color: #ffff99;
+}
