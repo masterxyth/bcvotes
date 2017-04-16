@@ -1,3 +1,5 @@
+
+// Linear Search
 function search() {
     // Declare variables
     var input, filter, table, tr, td, i;
@@ -32,4 +34,19 @@ function search() {
         }
     }
 }
+}
+
+// Create column classes
+var td = document.getElementsByTagName('td');
+for ( var i = 0; i <td.length-3; i+=3) {
+  td[i].className = 'riding_column';
+  td[i+1].className = 'candidate_column';
+  td[i+2].className = 'party_column';
+}
+
+// creating the 'row class'
+
+var rows = document.getElementsByTagName('tr');
+for (var i = 0; i<rows.length; i++) {
+  rows[i].className = 'row';
 }

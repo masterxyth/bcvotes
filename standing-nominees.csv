@@ -1,277 +1,277 @@
-candidate_id,Riding,Candidate Name,Party
-1,Abbotsford-Mission,Dan Cameron,Christian Heritage Party of B.C.
-2,Abbotsford-Mission,Andrew Murray Christie,BC NDP
-3,Abbotsford-Mission,Simon John Gibson,BC Liberal Party
-4,Abbotsford South,Jasleen Arora,BC NDP
-5,Abbotsford South,Ron Gray,Christian Heritage Party of B.C.
-6,Abbotsford South,Darryl Plecas,BC Liberal Party
-7,Abbotsford West,Michael de Jong,BC Liberal Party
-8,Abbotsford West,Preet Rai,BC NDP
-9,Abbotsford West,Lynn Simcox,Christian Heritage Party of B.C.
-10,Boundary-Similkameen,Linda Margaret Larson,BC Liberal Party
-11,Boundary-Similkameen,Colleen Ross,BC NDP
-12,Burnaby-Deer Lake,Elias Ishak,Independent
-13,Burnaby-Deer Lake,Anne Kang,BC NDP
-14,Burnaby-Deer Lake,Rick McGowan,BC Green Party
-15,Burnaby-Deer Lake,Karen Xiao Bao Wang,BC Liberal Party
-16,Burnaby-Edmonds,Raj Chouhan,BC NDP
-17,Burnaby-Edmonds,Garrison Duke,BC Liberal Party
-18,Burnaby-Edmonds,Valentine Wu,BC Green Party
-19,Burnaby-Lougheed,Katrina Chen,BC NDP
-20,Burnaby-Lougheed,Steve Darling,BC Liberal Party
-21,Burnaby-Lougheed,Joe Keithley,BC Green Party
-22,Burnaby North,Peter Hallschmid,BC Green Party
-23,Burnaby North,Richard T. Lee,BC Liberal Party
-24,Burnaby North,Janet Routledge,BC NDP
-25,Cariboo-Chilcotin,Donna Barnett,BC Liberal Party
-26,Cariboo-Chilcotin,Rita Helen Giesbrecht,BC Green Party
-27,Cariboo-Chilcotin,Sally Watson,BC NDP
-28,Cariboo North,Scott Elliott,BC NDP
-29,Cariboo North,Tony Goulet,BC Conservative Party
-30,Cariboo North,Coralee Ella Oakes,BC Liberal Party
-31,Chilliwack,Wayne Froese,BC Green Party
-32,Chilliwack,John Martin,BC Liberal Party
-33,Chilliwack,Ryan McKinnon,Independent
-34,Chilliwack,Tracey Lorrean O'Hara,BC NDP
-35,Chilliwack-Kent,Patti MacAhonic,BC NDP
-36,Chilliwack-Kent,Laurie Throness,BC Liberal Party
-37,Columbia River-Revelstoke,Samson Boyer,BC Green Party
-38,Columbia River-Revelstoke,Doug Clovechok,BC Liberal Party
-39,Columbia River-Revelstoke,Justin James Hooles,Independent
-40,Columbia River-Revelstoke,Gerry Taft,BC NDP
-41,Coquitlam-Burke Mountain,Joan Isaacs,BC Liberal Party
-42,Coquitlam-Burke Mountain,Jodie Wickens,BC NDP
-43,Coquitlam-Maillardville,Steve Kim,BC Liberal Party
-44,Coquitlam-Maillardville,Selina Mae Robinson,BC NDP
-45,Coquitlam-Maillardville,Nicola Eyton Spurling,BC Green Party
-46,Courtenay-Comox,Jim Benninger,BC Liberal Party
-47,Courtenay-Comox,Ronna-Rae Leonard,BC NDP
-48,Courtenay-Comox,Leah Catherine McCulloch,BC Conservative Party
-49,Courtenay-Comox,Ernie Sellentin,BC Green Party
-50,Cowichan Valley,James Robert Anderson,Libertarian
-51,Cowichan Valley,Sonia Furstenau,BC Green Party
-52,Cowichan Valley,Steve Housser,BC Liberal Party
-53,Cowichan Valley,Lori Lynn Iannidinardo,BC NDP
-54,Cowichan Valley,Ian Morrison,Independent
-55,Delta North,Scott Hamilton,BC Liberal Party
-56,Delta North,Ravi Kahlon,BC NDP
-57,Delta North,Jacquie Miller,BC Green Party
-58,Delta South,Larry Colero,BC Green Party
-59,Delta South,Ian Paton,BC Liberal Party
-60,Delta South,Bruce Reid,BC NDP
-61,Delta South,Nicholas Wong,Independent
-62,Esquimalt-Metchosin,Mitzi Jayne Dean,BC NDP
-63,Esquimalt-Metchosin,Barb Desjardins,BC Liberal Party
-64,Esquimalt-Metchosin,Andy MacKinnon,BC Green Party
-65,Esquimalt-Metchosin,Josh Steffler,Libertarian
-66,Fraser-Nicola,Arthur Alexander Green,BC Green Party
-67,Fraser-Nicola,Michael Henshall,BC Social Credit Party
-68,Fraser-Nicola,Harry Lali,BC NDP
-69,Fraser-Nicola,Jackie L. Tegart,BC Liberal Party
-70,Kamloops-North Thompson,Dan Hines,BC Green Party
-71,Kamloops-North Thompson,Peter Paul Kerek,Communist Party of BC
-72,Kamloops-North Thompson,Peter Gordon Milobar,BC Liberal Party
-73,Kamloops-North Thompson,Barb Nederpel,BC NDP
-74,Kamloops-South Thompson,Nancy Bepple,BC NDP
-75,Kamloops-South Thompson,Donovan Cavers,BC Green Party
-76,Kamloops-South Thompson,Beat Klossner,Communist Party of BC
-77,Kamloops-South Thompson,Todd Graham Stone,BC Liberal Party
-78,Kelowna-Lake Country,Norm Letnick,BC Liberal Party
-79,Kelowna-Lake Country,Alison Shaw,BC Green Party
-80,Kelowna-Mission,Charles Hardy,BC Conservative Party
-81,Kelowna-Mission,Steve Thomson,BC Liberal Party
-82,Kelowna-Mission,Rainer Wilkins,BC Green Party
-83,Kelowna West,Christy Clark,BC Liberal Party
-84,Kelowna West,Shelley Cook,BC NDP
-85,Kelowna West,Robert Mellalieu,BC Green Party
-86,Kelowna West,Brian Thiesen,Independent
-87,Kootenay East,Keith D. Komar,Libertarian
-88,Kootenay East,Randal Macnair,BC NDP
-89,Kootenay East,Tom Glenn Shypitka,BC Liberal Party
-90,Kootenay West,Katrine Conroy,BC NDP
-91,Kootenay West,Sam Troy,BC Green Party
-92,Langford-Juan de Fuca,Scott Burton,Libertarian
-93,Langford-Juan de Fuca,John Horgan,BC NDP
-94,Langford-Juan de Fuca,Willie Nelson,The Vancouver Island Party
-95,Langford-Juan de Fuca,Cathy Noel,BC Liberal Party
-96,Langford-Juan de Fuca,Brendan Ralfs,BC Green Party
-97,Langley,Gail Chaddock-Costello,BC NDP
-98,Langley,Mary Polak,BC Liberal Party
-99,Langley East,Rich Coleman,BC Liberal Party
-100,Langley East,Inder Johal,BC NDP
-101,Maple Ridge-Mission,Bob D'Eith,BC NDP
-102,Maple Ridge-Mission,Marc Dalton,BC Liberal Party
-103,Maple Ridge-Mission,Peter Pak Chiu Tam,BC Green Party
-104,Maple Ridge-Pitt Meadows,Lisa Marie Beare,BC NDP
-105,Maple Ridge-Pitt Meadows,Doug Bing,BC Liberal Party
-106,Maple Ridge-Pitt Meadows,Alex Pope,BC Green Party
-107,Maple Ridge-Pitt Meadows,Steve Ranta,Independent
-108,Mid Island-Pacific Rim,Scott Kenneth Fraser,BC NDP
-109,Mid Island-Pacific Rim,Alicia La Rue,BC Green Party
-110,Nanaimo,Paris Gaudet,BC Liberal Party
-111,Nanaimo,Leonard Krog,BC NDP
-112,Nanaimo,Bill Walker,Libertarian
-113,Nanaimo-North Cowichan,Alana DeLong,BC Liberal Party
-114,Nanaimo-North Cowichan,P. Anna Paddon,Independent
-115,Nanaimo-North Cowichan,Doug Routley,BC NDP
-116,Nanaimo-North Cowichan,Lia Marie Constance Versaevel,BC Green Party
-117,Nechako Lakes,Jon Rempel,Libertarian
-118,Nechako Lakes,John Rustad,BC Liberal Party
-119,Nechako Lakes,Anne Marie Sam,BC NDP
-120,Nelson-Creston,Kim Charlesworth,BC Green Party
-121,Nelson-Creston,Michelle Mungall,BC NDP
-122,Nelson-Creston,Jesse O'Leary,Independent
-123,Nelson-Creston,Tom Prior,Independent
-124,Nelson-Creston,Tanya Rae Wall,BC Liberal Party
-125,New Westminster,Jonina Campbell,BC Green Party
-126,New Westminster,Judy Darcy,BC NDP
-127,North Coast,Herb Pond,BC Liberal Party
-128,North Coast,Jennifer Rice,BC NDP
-129,North Island,Sue Moen,BC Green Party
-130,North Island,Dallas William Smith,BC Liberal Party
-131,North Island,Claire Felicity Trevena,BC NDP
-132,North Island,John M. Twigg,BC First
-133,North Vancouver-Lonsdale,Bowinn Ma,BC NDP
-134,North Vancouver-Lonsdale,Richard Warrington,BC Green Party
-135,North Vancouver-Lonsdale,Naomi Yamamoto,BC Liberal Party
-136,North Vancouver-Seymour,Michael Rene Charrois,BC NDP
-137,North Vancouver-Seymour,Joshua Johnson,BC Green Party
-138,North Vancouver-Seymour,Jane Ann Thornthwaite,BC Liberal Party
-139,North Vancouver-Seymour,Clayton Welwood,Libertarian
-140,Oak Bay-Gordon Head,Bryce Casavant,BC NDP
-141,Oak Bay-Gordon Head,Alex Dutton,BC Liberal Party
-142,Oak Bay-Gordon Head,Andrew John Weaver,BC Green Party
-143,Oak Bay-Gordon Head,Jin Dong Yang-Riley,The Vancouver Island Party
-144,Parksville-Qualicum,Terry Hand,BC Refed
-145,Parksville-Qualicum,Sue Powell,BC NDP
-146,Parksville-Qualicum,Glenn Sollitt,BC Green Party
-147,Parksville-Qualicum,Michelle Stilwell,BC Liberal Party
-148,Peace River North,Dan Davies,BC Liberal Party
-149,Peace River North,Rob Dempsey,BC NDP
-150,Peace River North,Bob Fedderly,Independent
-151,Peace River North,Rob Fraser,Independent
-152,Peace River North,Jeff Richert,Independent
-153,Peace River South,Mike Bernier,BC Liberal Party
-154,Peace River South,Stephanie Goudie,BC NDP
-155,Penticton,Dan Ashton,BC Liberal Party
-156,Penticton,Tarik Sayeed,BC NDP
-157,Port Coquitlam,Susan Chambers,BC Liberal Party
-158,Port Coquitlam,Mike Farnworth,BC NDP
-159,Port Coquitlam,Billy Gibbons,BC Cascadia Party
-160,Port Coquitlam,Jason Hanley,BC Green Party
-161,Port Moody-Coquitlam,Don Barthel,BC Green Party
-162,Port Moody-Coquitlam,Rick Glumac,BC NDP
-163,Port Moody-Coquitlam,Linda Reimer,BC Liberal Party
-164,Powell River-Sunshine Coast,Kim Darwin,BC Green Party
-165,Powell River-Sunshine Coast,Reuben Richards,BC Cascadia Party
-166,Powell River-Sunshine Coast,Nicholas Simons,BC NDP
-167,Powell River-Sunshine Coast,Mathew Wilson,BC Liberal Party
-168,Prince George-Mackenzie,Bobby Deepak,BC NDP
-169,Prince George-Mackenzie,Mike Morris,BC Liberal Party
-170,Prince George-Valemount,Shirley Bond,BC Liberal Party
-171,Prince George-Valemount,Natalie Fletcher,BC NDP
-172,Prince George-Valemount,Nan Kendy,BC Green Party
-173,Richmond North Centre,Lyren Chiu,BC NDP
-174,Richmond North Centre,John Crocock,BC Action Party
-175,Richmond North Centre,Dong Pan,Independent
-176,Richmond North Centre,Teresa Wat,BC Liberal Party
-177,Richmond-Queensborough,Lawrence Chen,Republican Party
-178,Richmond-Queensborough,Jas Johal,BC Liberal Party
-179,Richmond-Queensborough,Aman Singh,BC NDP
-180,Richmond South Centre,Linda Reid,BC Liberal Party
-181,Richmond-Steveston,Kelly Greene,BC NDP
-182,Richmond-Steveston,John Yap,BC Liberal Party
-183,Saanich North and the Islands,Gary Holman,BC NDP
-184,Saanich North and the Islands,Adam Olsen,BC Green Party
-185,Saanich North and the Islands,Stephen P. Roberts,BC Liberal Party
-186,Saanich North and the Islands,Jordan Templeman,Independent
-187,Saanich South,David Calder,BC Liberal Party
-188,Saanich South,Andrew Paul McLean,Libertarian
-189,Saanich South,Mark Neufeld,BC Green Party
-190,Saanich South,Richard Percival Pattee,The Vancouver Island Party
-191,Saanich South,Lana Popham,BC NDP
-192,Shuswap,Kevin Babcock,BC Green Party
-193,Shuswap,Gregory James Kyllo,BC Liberal Party
-194,Shuswap,Sylvia Jean Lindgren,BC NDP
-195,Skeena,Bruce Alan Bidgood,BC NDP
-196,Skeena,Ellis Ross,BC Liberal Party
-197,Stikine,Doug Donaldson,BC NDP
-198,Stikine,Rod Taylor,Christian Heritage Party of B.C.
-199,Surrey-Cloverdale,Marvin Hunt,BC Liberal Party
-200,Surrey-Cloverdale,Aleksandra Muniak,BC Green Party
-201,Surrey-Cloverdale,Peter Poelstra,Libertarian
-202,Surrey-Cloverdale,Rebecca Smith,BC NDP
-203,Surrey-Fleetwood,Tim Binnema,BC Green Party
-204,Surrey-Fleetwood,Jagrup Brar,BC NDP
-205,Surrey-Fleetwood,Peter Fassbender,BC Liberal Party
-206,Surrey-Green Timbers,Saira Aujla,BC Green Party
-207,Surrey-Green Timbers,Brenda Joy Locke,BC Liberal Party
-208,Surrey-Green Timbers,Rachna Singh,BC NDP
-209,Surrey-Guildford,Garry Begg,BC NDP
-210,Surrey-Guildford,Jodi Murphy,BC Green Party
-211,Surrey-Guildford,Amrik Virk,BC Liberal Party
-212,Surrey-Newton,Harry Bains,BC NDP
-213,Surrey-Newton,Balpreet Singh Bal,Other
-214,Surrey-Panorama,Puneet Sandhar,BC Liberal Party
-215,Surrey-Panorama,Jinny Sims,BC NDP
-216,Surrey South,Stephanie Cadieux,BC Liberal Party
-217,Surrey South,Gary Hee,Independent
-218,Surrey South,Peter Njenga,Independent
-219,Surrey South,Fabiola Cecilia Palomino,Your Political Party of BC (YPP)
-220,Surrey South,Jonathan Silveira,BC NDP
-221,Surrey-Whalley,Sargy Chima,BC Liberal Party
-222,Surrey-Whalley,Bruce Ralston,BC NDP
-223,Surrey-White Rock,Tom Bryant,Independent
-224,Surrey-White Rock,Bill Marshall,BC Green Party
-225,Surrey-White Rock,Niovi Patsicakis,BC NDP
-226,Surrey-White Rock,Tracy Redies,BC Liberal Party
-227,Vancouver-Fairview,Joey Doyle,Your Political Party of BC (YPP)
-228,Vancouver-Fairview,Gabe Garfinkel,BC Liberal Party
-229,Vancouver-Fairview,George Heyman,BC NDP
-230,Vancouver-False Creek,James Filippelli,Your Political Party of BC (YPP)
-231,Vancouver-False Creek,Morgane Oger,BC NDP
-232,Vancouver-False Creek,Sam Sullivan,BC Liberal Party
-233,Vancouver-Fraserview,Suzanne Anton,BC Liberal Party
-234,Vancouver-Fraserview,Harpreet S. Bajwa,Your Political Party of BC (YPP)
-235,Vancouver-Fraserview,George Chow,BC NDP
-236,Vancouver-Fraserview,Eric Kolotyluk,BC Green Party
-237,Vancouver-Hastings,Shane Lee Simpson,BC NDP
-238,Vancouver-Hastings,David H.T. Wong,BC Green Party
-239,Vancouver-Kensington,Kim Jee Chan Logan,BC Liberal Party
-240,Vancouver-Kensington,Mable Elmore,BC NDP
-241,Vancouver-Kensington,Simon Alexander Rear,BC Green Party
-242,Vancouver-Kingsway,Ellisa Calder,BC Green Party
-243,Vancouver-Kingsway,Adrian Dix,BC NDP
-244,Vancouver-Kingsway,Trang Nguyen,BC Liberal Party
-245,Vancouver-Langara,Janet Rhoda Fraser,BC Green Party
-246,Vancouver-Langara,Michael Lee,BC Liberal Party
-247,Vancouver-Langara,Surinder Singh Trehan,Your Political Party of BC (YPP)
-248,Vancouver-Langara,James Wang,BC NDP
-249,Vancouver-Mount Pleasant,Jerry Kroll,BC Green Party
-250,Vancouver-Mount Pleasant,Conny Lin,BC Liberal Party
-251,Vancouver-Mount Pleasant,Melanie Mark,BC NDP
-252,Vancouver-Point Grey,David Robert Patrick Eby,BC NDP
-253,Vancouver-Point Grey,Amanda Konkin,BC Green Party
-254,Vancouver-Point Grey,James Lombardi,BC Liberal Party
-255,Vancouver-Point Grey,David Stall,Your Political Party of BC (YPP)
-256,Vancouver-Quilchena,Madeline Lalonde,BC NDP
-257,Vancouver-Quilchena,Andrew Wilkinson,BC Liberal Party
-258,Vancouver-West End,Spencer Chandra Herbert,BC NDP
-259,Vancouver-West End,Nigel Elliott,BC Liberal Party
-260,Vancouver-West End,James Marshall,BC Green Party
-261,Vernon-Monashee,Barry Charles Dorval,BC NDP
-262,Vernon-Monashee,Eric Bailey Foster,BC Liberal Party
-263,Vernon-Monashee,Don Jefcoat,Libertarian
-264,Vernon-Monashee,Keli Westgate,BC Green Party
-265,Victoria-Beacon Hill,Kalen Harris,BC Green Party
-266,Victoria-Beacon Hill,Carole James,BC NDP
-267,Victoria-Beacon Hill,Art Lowe,Libertarian
-268,Victoria-Swan Lake,Rob Fleming,BC NDP
-269,Victoria-Swan Lake,Christopher Alan Maxwell,BC Green Party
-270,West Vancouver-Capilano,Michael Markwick,BC Green Party
-271,West Vancouver-Capilano,Mehdi Russel,BC NDP
-272,West Vancouver-Capilano,Ralph Sultan,BC Liberal Party
-273,West Vancouver-Sea to Sky,Tristan Andrew Galbraith,Independent
-274,West Vancouver-Sea to Sky,Michelle Livaja,BC NDP
-275,West Vancouver-Sea to Sky,Jordan Sturdy,BC Liberal Party
-276,West Vancouver-Sea to Sky,Dana Moore Taylor,BC Green Party
+Riding,Candidate Name,Party
+Abbotsford-Mission,Dan Cameron,Christian Heritage Party of B.C.
+Abbotsford-Mission,Andrew Murray Christie,BC NDP
+Abbotsford-Mission,Simon John Gibson,BC Liberal Party
+Abbotsford South,Jasleen Arora,BC NDP
+Abbotsford South,Ron Gray,Christian Heritage Party of B.C.
+Abbotsford South,Darryl Plecas,BC Liberal Party
+Abbotsford West,Michael de Jong,BC Liberal Party
+Abbotsford West,Preet Rai,BC NDP
+Abbotsford West,Lynn Simcox,Christian Heritage Party of B.C.
+Boundary-Similkameen,Linda Margaret Larson,BC Liberal Party
+Boundary-Similkameen,Colleen Ross,BC NDP
+Burnaby-Deer Lake,Elias Ishak,Independent
+Burnaby-Deer Lake,Anne Kang,BC NDP
+Burnaby-Deer Lake,Rick McGowan,BC Green Party
+Burnaby-Deer Lake,Karen Xiao Bao Wang,BC Liberal Party
+Burnaby-Edmonds,Raj Chouhan,BC NDP
+Burnaby-Edmonds,Garrison Duke,BC Liberal Party
+Burnaby-Edmonds,Valentine Wu,BC Green Party
+Burnaby-Lougheed,Katrina Chen,BC NDP
+Burnaby-Lougheed,Steve Darling,BC Liberal Party
+Burnaby-Lougheed,Joe Keithley,BC Green Party
+Burnaby North,Peter Hallschmid,BC Green Party
+Burnaby North,Richard T. Lee,BC Liberal Party
+Burnaby North,Janet Routledge,BC NDP
+Cariboo-Chilcotin,Donna Barnett,BC Liberal Party
+Cariboo-Chilcotin,Rita Helen Giesbrecht,BC Green Party
+Cariboo-Chilcotin,Sally Watson,BC NDP
+Cariboo North,Scott Elliott,BC NDP
+Cariboo North,Tony Goulet,BC Conservative Party
+Cariboo North,Coralee Ella Oakes,BC Liberal Party
+Chilliwack,Wayne Froese,BC Green Party
+Chilliwack,John Martin,BC Liberal Party
+Chilliwack,Ryan McKinnon,Independent
+Chilliwack,Tracey Lorrean O'Hara,BC NDP
+Chilliwack-Kent,Patti MacAhonic,BC NDP
+Chilliwack-Kent,Laurie Throness,BC Liberal Party
+Columbia River-Revelstoke,Samson Boyer,BC Green Party
+Columbia River-Revelstoke,Doug Clovechok,BC Liberal Party
+Columbia River-Revelstoke,Justin James Hooles,Independent
+Columbia River-Revelstoke,Gerry Taft,BC NDP
+Coquitlam-Burke Mountain,Joan Isaacs,BC Liberal Party
+Coquitlam-Burke Mountain,Jodie Wickens,BC NDP
+Coquitlam-Maillardville,Steve Kim,BC Liberal Party
+Coquitlam-Maillardville,Selina Mae Robinson,BC NDP
+Coquitlam-Maillardville,Nicola Eyton Spurling,BC Green Party
+Courtenay-Comox,Jim Benninger,BC Liberal Party
+Courtenay-Comox,Ronna-Rae Leonard,BC NDP
+Courtenay-Comox,Leah Catherine McCulloch,BC Conservative Party
+Courtenay-Comox,Ernie Sellentin,BC Green Party
+Cowichan Valley,James Robert Anderson,Libertarian
+Cowichan Valley,Sonia Furstenau,BC Green Party
+Cowichan Valley,Steve Housser,BC Liberal Party
+Cowichan Valley,Lori Lynn Iannidinardo,BC NDP
+Cowichan Valley,Ian Morrison,Independent
+Delta North,Scott Hamilton,BC Liberal Party
+Delta North,Ravi Kahlon,BC NDP
+Delta North,Jacquie Miller,BC Green Party
+Delta South,Larry Colero,BC Green Party
+Delta South,Ian Paton,BC Liberal Party
+Delta South,Bruce Reid,BC NDP
+Delta South,Nicholas Wong,Independent
+Esquimalt-Metchosin,Mitzi Jayne Dean,BC NDP
+Esquimalt-Metchosin,Barb Desjardins,BC Liberal Party
+Esquimalt-Metchosin,Andy MacKinnon,BC Green Party
+Esquimalt-Metchosin,Josh Steffler,Libertarian
+Fraser-Nicola,Arthur Alexander Green,BC Green Party
+Fraser-Nicola,Michael Henshall,BC Social Credit Party
+Fraser-Nicola,Harry Lali,BC NDP
+Fraser-Nicola,Jackie L. Tegart,BC Liberal Party
+Kamloops-North Thompson,Dan Hines,BC Green Party
+Kamloops-North Thompson,Peter Paul Kerek,Communist Party of BC
+Kamloops-North Thompson,Peter Gordon Milobar,BC Liberal Party
+Kamloops-North Thompson,Barb Nederpel,BC NDP
+Kamloops-South Thompson,Nancy Bepple,BC NDP
+Kamloops-South Thompson,Donovan Cavers,BC Green Party
+Kamloops-South Thompson,Beat Klossner,Communist Party of BC
+Kamloops-South Thompson,Todd Graham Stone,BC Liberal Party
+Kelowna-Lake Country,Norm Letnick,BC Liberal Party
+Kelowna-Lake Country,Alison Shaw,BC Green Party
+Kelowna-Mission,Charles Hardy,BC Conservative Party
+Kelowna-Mission,Steve Thomson,BC Liberal Party
+Kelowna-Mission,Rainer Wilkins,BC Green Party
+Kelowna West,Christy Clark,BC Liberal Party
+Kelowna West,Shelley Cook,BC NDP
+Kelowna West,Robert Mellalieu,BC Green Party
+Kelowna West,Brian Thiesen,Independent
+Kootenay East,Keith D. Komar,Libertarian
+Kootenay East,Randal Macnair,BC NDP
+Kootenay East,Tom Glenn Shypitka,BC Liberal Party
+Kootenay West,Katrine Conroy,BC NDP
+Kootenay West,Sam Troy,BC Green Party
+Langford-Juan de Fuca,Scott Burton,Libertarian
+Langford-Juan de Fuca,John Horgan,BC NDP
+Langford-Juan de Fuca,Willie Nelson,The Vancouver Island Party
+Langford-Juan de Fuca,Cathy Noel,BC Liberal Party
+Langford-Juan de Fuca,Brendan Ralfs,BC Green Party
+Langley,Gail Chaddock-Costello,BC NDP
+Langley,Mary Polak,BC Liberal Party
+Langley East,Rich Coleman,BC Liberal Party
+Langley East,Inder Johal,BC NDP
+Maple Ridge-Mission,Bob D'Eith,BC NDP
+Maple Ridge-Mission,Marc Dalton,BC Liberal Party
+Maple Ridge-Mission,Peter Pak Chiu Tam,BC Green Party
+Maple Ridge-Pitt Meadows,Lisa Marie Beare,BC NDP
+Maple Ridge-Pitt Meadows,Doug Bing,BC Liberal Party
+Maple Ridge-Pitt Meadows,Alex Pope,BC Green Party
+Maple Ridge-Pitt Meadows,Steve Ranta,Independent
+Mid Island-Pacific Rim,Scott Kenneth Fraser,BC NDP
+Mid Island-Pacific Rim,Alicia La Rue,BC Green Party
+Nanaimo,Paris Gaudet,BC Liberal Party
+Nanaimo,Leonard Krog,BC NDP
+Nanaimo,Bill Walker,Libertarian
+Nanaimo-North Cowichan,Alana DeLong,BC Liberal Party
+Nanaimo-North Cowichan,P. Anna Paddon,Independent
+Nanaimo-North Cowichan,Doug Routley,BC NDP
+Nanaimo-North Cowichan,Lia Marie Constance Versaevel,BC Green Party
+Nechako Lakes,Jon Rempel,Libertarian
+Nechako Lakes,John Rustad,BC Liberal Party
+Nechako Lakes,Anne Marie Sam,BC NDP
+Nelson-Creston,Kim Charlesworth,BC Green Party
+Nelson-Creston,Michelle Mungall,BC NDP
+Nelson-Creston,Jesse O'Leary,Independent
+Nelson-Creston,Tom Prior,Independent
+Nelson-Creston,Tanya Rae Wall,BC Liberal Party
+New Westminster,Jonina Campbell,BC Green Party
+New Westminster,Judy Darcy,BC NDP
+North Coast,Herb Pond,BC Liberal Party
+North Coast,Jennifer Rice,BC NDP
+North Island,Sue Moen,BC Green Party
+North Island,Dallas William Smith,BC Liberal Party
+North Island,Claire Felicity Trevena,BC NDP
+North Island,John M. Twigg,BC First
+North Vancouver-Lonsdale,Bowinn Ma,BC NDP
+North Vancouver-Lonsdale,Richard Warrington,BC Green Party
+North Vancouver-Lonsdale,Naomi Yamamoto,BC Liberal Party
+North Vancouver-Seymour,Michael Rene Charrois,BC NDP
+North Vancouver-Seymour,Joshua Johnson,BC Green Party
+North Vancouver-Seymour,Jane Ann Thornthwaite,BC Liberal Party
+North Vancouver-Seymour,Clayton Welwood,Libertarian
+Oak Bay-Gordon Head,Bryce Casavant,BC NDP
+Oak Bay-Gordon Head,Alex Dutton,BC Liberal Party
+Oak Bay-Gordon Head,Andrew John Weaver,BC Green Party
+Oak Bay-Gordon Head,Jin Dong Yang-Riley,The Vancouver Island Party
+Parksville-Qualicum,Terry Hand,BC Refed
+Parksville-Qualicum,Sue Powell,BC NDP
+Parksville-Qualicum,Glenn Sollitt,BC Green Party
+Parksville-Qualicum,Michelle Stilwell,BC Liberal Party
+Peace River North,Dan Davies,BC Liberal Party
+Peace River North,Rob Dempsey,BC NDP
+Peace River North,Bob Fedderly,Independent
+Peace River North,Rob Fraser,Independent
+Peace River North,Jeff Richert,Independent
+Peace River South,Mike Bernier,BC Liberal Party
+Peace River South,Stephanie Goudie,BC NDP
+Penticton,Dan Ashton,BC Liberal Party
+Penticton,Tarik Sayeed,BC NDP
+Port Coquitlam,Susan Chambers,BC Liberal Party
+Port Coquitlam,Mike Farnworth,BC NDP
+Port Coquitlam,Billy Gibbons,BC Cascadia Party
+Port Coquitlam,Jason Hanley,BC Green Party
+Port Moody-Coquitlam,Don Barthel,BC Green Party
+Port Moody-Coquitlam,Rick Glumac,BC NDP
+Port Moody-Coquitlam,Linda Reimer,BC Liberal Party
+Powell River-Sunshine Coast,Kim Darwin,BC Green Party
+Powell River-Sunshine Coast,Reuben Richards,BC Cascadia Party
+Powell River-Sunshine Coast,Nicholas Simons,BC NDP
+Powell River-Sunshine Coast,Mathew Wilson,BC Liberal Party
+Prince George-Mackenzie,Bobby Deepak,BC NDP
+Prince George-Mackenzie,Mike Morris,BC Liberal Party
+Prince George-Valemount,Shirley Bond,BC Liberal Party
+Prince George-Valemount,Natalie Fletcher,BC NDP
+Prince George-Valemount,Nan Kendy,BC Green Party
+Richmond North Centre,Lyren Chiu,BC NDP
+Richmond North Centre,John Crocock,BC Action Party
+Richmond North Centre,Dong Pan,Independent
+Richmond North Centre,Teresa Wat,BC Liberal Party
+Richmond-Queensborough,Lawrence Chen,Republican Party
+Richmond-Queensborough,Jas Johal,BC Liberal Party
+Richmond-Queensborough,Aman Singh,BC NDP
+Richmond South Centre,Linda Reid,BC Liberal Party
+Richmond-Steveston,Kelly Greene,BC NDP
+Richmond-Steveston,John Yap,BC Liberal Party
+Saanich North and the Islands,Gary Holman,BC NDP
+Saanich North and the Islands,Adam Olsen,BC Green Party
+Saanich North and the Islands,Stephen P. Roberts,BC Liberal Party
+Saanich North and the Islands,Jordan Templeman,Independent
+Saanich South,David Calder,BC Liberal Party
+Saanich South,Andrew Paul McLean,Libertarian
+Saanich South,Mark Neufeld,BC Green Party
+Saanich South,Richard Percival Pattee,The Vancouver Island Party
+Saanich South,Lana Popham,BC NDP
+Shuswap,Kevin Babcock,BC Green Party
+Shuswap,Gregory James Kyllo,BC Liberal Party
+Shuswap,Sylvia Jean Lindgren,BC NDP
+Skeena,Bruce Alan Bidgood,BC NDP
+Skeena,Ellis Ross,BC Liberal Party
+Stikine,Doug Donaldson,BC NDP
+Stikine,Rod Taylor,Christian Heritage Party of B.C.
+Surrey-Cloverdale,Marvin Hunt,BC Liberal Party
+Surrey-Cloverdale,Aleksandra Muniak,BC Green Party
+Surrey-Cloverdale,Peter Poelstra,Libertarian
+Surrey-Cloverdale,Rebecca Smith,BC NDP
+Surrey-Fleetwood,Tim Binnema,BC Green Party
+Surrey-Fleetwood,Jagrup Brar,BC NDP
+Surrey-Fleetwood,Peter Fassbender,BC Liberal Party
+Surrey-Green Timbers,Saira Aujla,BC Green Party
+Surrey-Green Timbers,Brenda Joy Locke,BC Liberal Party
+Surrey-Green Timbers,Rachna Singh,BC NDP
+Surrey-Guildford,Garry Begg,BC NDP
+Surrey-Guildford,Jodi Murphy,BC Green Party
+Surrey-Guildford,Amrik Virk,BC Liberal Party
+Surrey-Newton,Harry Bains,BC NDP
+Surrey-Newton,Balpreet Singh Bal,Other
+Surrey-Panorama,Puneet Sandhar,BC Liberal Party
+Surrey-Panorama,Jinny Sims,BC NDP
+Surrey South,Stephanie Cadieux,BC Liberal Party
+Surrey South,Gary Hee,Independent
+Surrey South,Peter Njenga,Independent
+Surrey South,Fabiola Cecilia Palomino,Your Political Party of BC (YPP)
+Surrey South,Jonathan Silveira,BC NDP
+Surrey-Whalley,Sargy Chima,BC Liberal Party
+Surrey-Whalley,Bruce Ralston,BC NDP
+Surrey-White Rock,Tom Bryant,Independent
+Surrey-White Rock,Bill Marshall,BC Green Party
+Surrey-White Rock,Niovi Patsicakis,BC NDP
+Surrey-White Rock,Tracy Redies,BC Liberal Party
+Vancouver-Fairview,Joey Doyle,Your Political Party of BC (YPP)
+Vancouver-Fairview,Gabe Garfinkel,BC Liberal Party
+Vancouver-Fairview,George Heyman,BC NDP
+Vancouver-False Creek,James Filippelli,Your Political Party of BC (YPP)
+Vancouver-False Creek,Morgane Oger,BC NDP
+Vancouver-False Creek,Sam Sullivan,BC Liberal Party
+Vancouver-Fraserview,Suzanne Anton,BC Liberal Party
+Vancouver-Fraserview,Harpreet S. Bajwa,Your Political Party of BC (YPP)
+Vancouver-Fraserview,George Chow,BC NDP
+Vancouver-Fraserview,Eric Kolotyluk,BC Green Party
+Vancouver-Hastings,Shane Lee Simpson,BC NDP
+Vancouver-Hastings,David H.T. Wong,BC Green Party
+Vancouver-Kensington,Kim Jee Chan Logan,BC Liberal Party
+Vancouver-Kensington,Mable Elmore,BC NDP
+Vancouver-Kensington,Simon Alexander Rear,BC Green Party
+Vancouver-Kingsway,Ellisa Calder,BC Green Party
+Vancouver-Kingsway,Adrian Dix,BC NDP
+Vancouver-Kingsway,Trang Nguyen,BC Liberal Party
+Vancouver-Langara,Janet Rhoda Fraser,BC Green Party
+Vancouver-Langara,Michael Lee,BC Liberal Party
+Vancouver-Langara,Surinder Singh Trehan,Your Political Party of BC (YPP)
+Vancouver-Langara,James Wang,BC NDP
+Vancouver-Mount Pleasant,Jerry Kroll,BC Green Party
+Vancouver-Mount Pleasant,Conny Lin,BC Liberal Party
+Vancouver-Mount Pleasant,Melanie Mark,BC NDP
+Vancouver-Point Grey,David Robert Patrick Eby,BC NDP
+Vancouver-Point Grey,Amanda Konkin,BC Green Party
+Vancouver-Point Grey,James Lombardi,BC Liberal Party
+Vancouver-Point Grey,David Stall,Your Political Party of BC (YPP)
+Vancouver-Quilchena,Madeline Lalonde,BC NDP
+Vancouver-Quilchena,Andrew Wilkinson,BC Liberal Party
+Vancouver-West End,Spencer Chandra Herbert,BC NDP
+Vancouver-West End,Nigel Elliott,BC Liberal Party
+Vancouver-West End,James Marshall,BC Green Party
+Vernon-Monashee,Barry Charles Dorval,BC NDP
+Vernon-Monashee,Eric Bailey Foster,BC Liberal Party
+Vernon-Monashee,Don Jefcoat,Libertarian
+Vernon-Monashee,Keli Westgate,BC Green Party
+Victoria-Beacon Hill,Kalen Harris,BC Green Party
+Victoria-Beacon Hill,Carole James,BC NDP
+Victoria-Beacon Hill,Art Lowe,Libertarian
+Victoria-Swan Lake,Rob Fleming,BC NDP
+Victoria-Swan Lake,Christopher Alan Maxwell,BC Green Party
+West Vancouver-Capilano,Michael Markwick,BC Green Party
+West Vancouver-Capilano,Mehdi Russel,BC NDP
+West Vancouver-Capilano,Ralph Sultan,BC Liberal Party
+West Vancouver-Sea to Sky,Tristan Andrew Galbraith,Independent
+West Vancouver-Sea to Sky,Michelle Livaja,BC NDP
+West Vancouver-Sea to Sky,Jordan Sturdy,BC Liberal Party
+West Vancouver-Sea to Sky,Dana Moore Taylor,BC Green Party
