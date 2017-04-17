@@ -43,30 +43,13 @@
   <input type="text" id="search" onkeyup="search()" placeholder="Search for candidate name, riding, or party.">
   </div>
 
-<!-- <div class="table">
+<div class="table">
   {% for table in tables %}
-<h2>{{titles[loop.index]}}</h2>
+    <!-- <h2>{{titles[loop.index]}}</h2> -->
     {{ table|safe }}
   {% endfor %}
   </div>
--->
-{% for ridingid in riding %}
-{% for ride in ridingid %}
-  <div class="riding">
-
-    {{ ride }}
-
-  </div>
-  {% endfor %}
-  {% endfor %}
 </div> <!-- end page -->
 <script src='{{ url_for('static', filename='script.js')}}'></script>
 </body>
 </html>
-
-{% for product_type, products in product_type_list %}
-    {{ product_type }}
-    {% for product in products %}
-        {{ product }}
-    {% endfor %}
-{% endfor %}
