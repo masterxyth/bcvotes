@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--  <meta property="og:image" content="" /> -->
+  <meta property="og:description" content="Find the candidates who are running in the British Columbia 2017 provincial election for your riding." />
+  <meta property="og:url"content="http://www.bcvotes.info" />
+  <meta property="og:title" content="BC Votes -- Who will you vote for?" />
+  <meta name="google-site-verification" content="TZqONLHn_YM_ZOZSXP9v7CwB1lt9LtaOgaX4SS_nWIM" />
+
+
+  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97401966-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <title>BC Votes</title>
+</head>
+<body>
+
+<div class="page">
+    <div class="left-header">
+      <h1>BC Votes 2017</h1>
+      <p>Find your riding's candidates for the upcoming BC Provincial Election.</p>
+      <nav>
+        <ul>
+          <a href="{{ url_for('bc_politics_explained_easy') }}"><li>TL;DR of B.C. Politics</li></a>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-header">
+      <div class="votedate">
+        <h5>Election Day</h5>
+        <h2>May 9th</h2>
+        <p>8 a.m. to 8 p.m.</p>
+      </div>
+    </div>
+  {% block content %}
+  {% endblock %}
+  </div> <!-- end page -->
+  <script src='{{ url_for('static', filename='script.js')}}'></script>
+  </body>
+  </html>

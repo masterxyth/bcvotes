@@ -11,5 +11,9 @@ def show_tables():
     return render_template('index.html',tables=[data.to_html(classes='data')], #returning view.html file from templates, using the data returned as a table in html with Class Data
     titles = ['Candidates']) #Table Title
 
+@app.route("/bc-politics-explained-easy/")
+def bc_politics_explained_easy():
+    return render_template('bc-politics-explained-easy.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
