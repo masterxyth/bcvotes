@@ -59,6 +59,10 @@ p {
     text-align: right;
 }
 
+.votedate h1 {
+  text-decoration: underline;
+  /*border-bottom: 4px solid black;*/
+}
 
 /*
 .left-header {
@@ -154,8 +158,10 @@ article {
     header {
         grid-template-areas: "left-header right-header" "nav nav";
     }
-    .votedate {
-        text-align: right;
+    .votedate h1 {
+      text-decoration: none;
+      border-bottom: 4px solid black;
+      padding-bottom: 4px;
     }
     nav li {
         border-top: 4px solid #222;
