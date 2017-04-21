@@ -6,28 +6,90 @@ html {
     overflow-y: scroll;
 }
 
-
 body {
     font-family: "Roboto", "Lucida Grande", sans-serif;
+    margin: 1em;
+    color: #222;
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: 300;
-    /*Light*/
+h1 { /* Wordmark and Votedate */
     margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h5 { /* Votedate */
+    margin: 0 0 .25em 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h6 { /* Wordmark and Votedate */
+    margin: .5em 0 0 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+
 
 h2 {
-    font-size: 2em;
-    /*Bold*/
-    margin: 0;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-weight: lighter;
+  font-style: italic;
 }
 
 p {
-    line-height: 1.5em;
-    margin-top: .5em;
+  font-weight: lighter;
+  line-height: 2em;
 }
+
+.votedate {
+    text-align: right;
+}
+/*
+.left-header {
+  text-align: center;
+}*/
+
+/* Nav bar */
+
+nav a {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+}
+
+nav li:hover {
+  background-color: #ffff99;
+}
+
 
 
 /* Grid Layout */
@@ -36,53 +98,86 @@ p {
   margin-top: 1em;
     display: grid;
     grid-gap: 1em;
-    grid-template-areas: "left-header right-header" "search search" "table table";
+    /*grid-template-columns: 50% 50%;*/
+    /*grid-template-areas: "left-header right-header" "nav nav" "article article" "search search" "table table";*/
+    grid-template-areas: "header" "article" "search" "table";
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-areas:
+  "left-header left-header" "nav right-header";
+  padding-top: 1em;
 }
 
 .left-header {
-    padding-top: 1em;
     grid-area: left-header;
 }
 
 .right-header {
-    padding-top: 1em;
     grid-area: right-header;
 }
 
-.votedate {
-    text-align: right;
-}
-
-.votedate h5 {
-    margin: 0 0 .25em 0;
-    font-weight: normal;
-    text-transform: uppercase;
+nav {
+  grid-area: nav;
+  /*margin-top: 1.5em;*/
+  border: 4px solid #222;
 }
 
 .table {
     grid-area: table;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .search {
     grid-area: search;
-    margin-top: 2em;
-    border-bottom: 4px solid #000;
+    margin-top: 1em;
+    border-bottom: 4px solid #222;
 }
 
+article {
+  grid-area: article;
+}
 
 /* Media Queries for responsive behaviour */
 
 @media only screen and (min-width: 600px) {
-    h1 {
-    }
+
     .page {
-      /*grid-template-columns: 75% 25%;*/
-      grid-template-areas: "left-header right-header" "search search" "table table";
         max-width: 960px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    header {
+      grid-template-areas: "left-header right-header" "nav nav";
+    }
+
+    .votedate {
+        text-align: right;
+    }
+    nav li {
+      border-top: 4px solid #222;
+      border-bottom: 4px solid #222;
+      border-right: 4px solid #222;
+      /*box-shadow: 1px 1px #222, 2px 2px #222, 3px 3px #222, 4px 4px #222;*/
+    }
+    nav {
+      border: none;
+    }
+
+    nav a:first-child li:first-child{
+      border-left: 4px solid #222;
+    }
+
+
+
+    .left-header {
+      text-align: left;
+    }
+
     .right-header {
         display: flex;
         justify-content: flex-end;
@@ -106,11 +201,26 @@ table.dataframe, .dataframe th, .dataframe td {
 
 #search {
     box-sizing: border-box;
-    font-size: 1.25em;
+    font-size: 1em;
     padding: 1em;
+    padding-left: 3em;
     border: none;
     background-color: #eee;
     width: 100%;
+}
+
+label {
+  position: relative;
+}
+
+label::before {
+  position: absolute;
+  left: 1em;
+  top: 0;
+  bottom: 0;
+  content: '';
+  width: 2em;
+  background: url('magnifying-glass.svg') left center no-repeat / contain;
 }
 
 tr:nth-child(odd) {}

@@ -22,27 +22,30 @@
   ga('send', 'pageview');
 
 </script>
-  <title>BC Votes</title>
+  <title>BC Votes {% block title %}{% endblock %}</title>
 </head>
 <body>
 
 <div class="page">
+  <header>
     <div class="left-header">
-      <h1>BC Votes 2017</h1>
-      <p>Find your riding's candidates for the upcoming BC Provincial Election.</p>
-      <nav>
-        <ul>
-          <a href="{{ url_for('bc_politics_explained_easy') }}"><li>TL;DR of B.C. Politics</li></a>
-        </ul>
-      </nav>
+      <h1><a href="{{ url_for('show_tables') }}">BC Votes 2017</a></h1>
+      <h6>Helpful information for the upcoming BC Provincial Election.</h6>
     </div>
     <div class="right-header">
       <div class="votedate">
         <h5>Election Day</h5>
-        <h2>May 9th</h2>
-        <p>8 a.m. to 8 p.m.</p>
+        <h1>May 9th</h1>
+        <h6>8 a.m. to 8 p.m.</h6>
       </div>
     </div>
+    <nav>
+      <ul>
+        <a href="{{ url_for('show_tables') }}"><li>Who are my candidates?</li></a>
+        <a href="{{ url_for('bc_politics_explained_easy') }}"><li>B.C. Government Explained</li></a>
+      </ul>
+    </nav>
+  </header>
   {% block content %}
   {% endblock %}
   </div> <!-- end page -->
