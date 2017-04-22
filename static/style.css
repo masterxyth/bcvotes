@@ -3,232 +3,263 @@
 /* Typography */
 
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
-    font-family: "Roboto", "Lucida Grande", sans-serif;
-    margin: 1em;
-    color: #222;
+  font-family: "Roboto", "Lucida Grande", sans-serif;
+  margin: 1em;
+  color: #222;
+  font-weight: lighter;
 }
 
 h1 {
-    /* Wordmark and Votedate */
-    margin: 0;
+  /* Wordmark and Votedate */
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 h5 {
-    /* Votedate */
-    margin: 0 0 .25em 0;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-h6 {
-    /* Wordmark and Votedate */
-    margin: .5em 0 0 0;
-    font-size: 1em;
-    font-weight: normal;
+  /* Election Day */
+  margin: 0em 0 .25em 0;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 h3 {
-    font-weight: normal;
-    font-size: 1.5em;
+  font-weight: normal;
+  font-size: 1.5em;
 }
 
 h4 {
-    font-weight: lighter;
-    font-style: italic;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 p {
-    font-weight: lighter;
-    line-height: 2em;
+  font-weight: lighter;
+  line-height: 1.5em;
 }
 
-.votedate {
-    text-align: right;
+.subhead {
+  margin: .25em 0 0 0;
 }
-
-.votedate h1 {
-  text-decoration: underline;
-  /*border-bottom: 4px solid black;*/
-}
-
-/*
-.left-header {
-  text-align: center;
-}*/
-
 
 /* Nav bar */
-
 nav a {
-    font-weight: bold;
-    text-transform: uppercase;
-    display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-    display: inline;
-    float: left;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-top: .5em;
-    padding-bottom: .5em;
+  display: inline;
+  float: left;
+  padding: .5em;
+  margin-left: -.5em;
 }
 
 nav li:hover {
-    background-color: #ffff99;
+  background-color: #ffff99;
 }
 
 
 /* Grid Layout */
 
 .page {
-    margin-top: 1em;
-    display: grid;
-    grid-gap: 1em;
-    /*grid-template-columns: 50% 50%;*/
-    /*grid-template-areas: "left-header right-header" "nav nav" "article article" "search search" "table table";*/
-    grid-template-areas: "header" "article" "search" "table";
+  margin-top: 1em;
+  display: grid;
+  grid-gap: 1em;
+  /*grid-template-columns: 50% 50%;*/
+  /*grid-template-areas: "left-header right-header" "nav nav" "article article" "search search" "table table";*/
+  grid-template-areas: "header" "article" "search" "table";
 }
 
 header {
-    grid-area: header;
-    display: grid;
-    grid-gap: 1.5em;
-    grid-template-areas: "left-header left-header" "nav right-header";
-    padding-top: 1em;
+  grid-area: header;
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-areas: "left-header" "right-header" "nav" ;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 4px solid #222;
+  border-top: 4px solid #222;
 }
 
 .left-header {
-    grid-area: left-header;
+  grid-area: left-header;
+  border-bottom: 2px dotted black;
+  padding-bottom: 1em;
 }
 
 .right-header {
-    grid-area: right-header;
+  grid-area: right-header;
+  display: grid;
+  grid-template-areas: "votedate calendar";
+  /*border-bottom: 2px dotted black;
+  padding-bottom: 1.5em;*/
+}
+
+.votedate {
+  grid-area: votedate;
+}
+
+.calendar {
+  grid-area: calendar;
+  text-align: right;
+  border: 4px solid #222;
+}
+
+.calendar #plus {
+  font-size: 2em;
+  font-weight: bold;
+  padding: .25em;
+}
+
+.calendar p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.calendar:hover {
+  background-color: #ffff99;
 }
 
 nav {
-    grid-area: nav;
-    /*margin-top: 1.5em;*/
-    border: 4px solid #222;
+  grid-area: nav;
+  border-top: 2px dotted black;
+  padding-top: 1em;
 }
 
 .table {
-    grid-area: table;
-    margin-top: 1em;
+  grid-area: table;
+  margin-top: 1em;
+  overflow-y: auto;
 }
 
 .search {
-    grid-area: search;
-    margin-top: 1em;
-    border-bottom: 4px solid #222;
+  grid-area: search;
+  border-bottom: 2px dotted #222;
 }
 
 article {
-    grid-area: article;
+  grid-area: article;
 }
 
 
 /* Media Queries for responsive behaviour */
 
 @media only screen and (min-width: 600px) {
-    .page {
-        max-width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    header {
-        grid-template-areas: "left-header right-header" "nav nav";
-    }
-    .votedate h1 {
-      text-decoration: none;
-      border-bottom: 4px solid black;
-      padding-bottom: 4px;
-    }
-    nav li {
-        border-top: 4px solid #222;
-        border-bottom: 4px solid #222;
-        border-right: 4px solid #222;
-        /*box-shadow: 1px 1px #222, 2px 2px #222, 3px 3px #222, 4px 4px #222;*/
-    }
-    nav {
-        border: none;
-    }
-    nav a:first-child li:first-child {
-        border-left: 4px solid #222;
-    }
-    .left-header {
-        text-align: left;
-    }
-    .right-header {
-        display: flex;
-        justify-content: flex-end;
-    }
+  .page {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    grid-template-areas: "left-header right-header" "nav nav";
+    padding-bottom: 1em;
+  }
+  .votedate {
+    text-align: right;
+  }
+  .votedate h1 {
+    text-decoration: none;
+    border-bottom: 4px solid black;
+    padding-bottom: 4px;
+  }
+  h5 {
+    /* Election Day */
+    margin: 0 0 .25em 0;
+  }
+  nav li {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: -1em;
+    margin-right: 1em;
+  }
+  nav {
+
+  }
+  .right-header {
+    justify-content: flex-end;
+    grid-gap: 2em;
+    padding-top: .25em;
+    padding-bottom: 0;
+    border: 0;
+  }
+  .left-header {
+    border: 0;
+  }
+  .calendar p {
+    padding: 1em 1em .5em 1em;
+    margin: 0;
+  }
+  .search {
+      margin: 1em 0 1em 0;
+  }
 }
 
 table {
-    width: 100%;
+  width: 100%;
+  overflow: scroll;
+
 }
 
 table.dataframe, .dataframe th, .dataframe td {
-    border: none;
-    border-collapse: collapse;
-    text-align: left;
-    padding: 1.5em;
+  border: none;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 1.5em;
 }
 
 .data thead {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 #search {
-    box-sizing: border-box;
-    font-size: 1em;
-    padding: 1em;
-    padding-left: 3em;
-    border: none;
-    background-color: #eee;
-    width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: lighter;
+  padding: 1.5em;
+  padding-left: 4em;
+  border: none;
+  background-color: #eee;
+  width: 100%;
 }
 
 label {
-    position: relative;
+  position: relative;
 }
 
 label::before {
-    position: absolute;
-    left: 1em;
-    top: 0;
-    bottom: 0;
-    content: '';
-    width: 2em;
-    background: url('magnifying-glass.svg') left center no-repeat / contain;
+  position: absolute;
+  left: 1.5em;
+  top: 0;
+  bottom: 0;
+  content: '';
+  width: 2em;
+  background: url('magnifying-glass.svg') left center no-repeat / contain;
 }
 
 tr:nth-child(odd) {}
 
 tr:nth-child(even) {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 tbody tr:hover {
-    background-color: #ffff99;
+  background-color: #ffff99;
 }
