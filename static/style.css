@@ -267,3 +267,9 @@ tr:nth-child(even) {
 tbody tr:hover {
   background-color: #ffff99;
 }
+
+/*table hiding experiment */
+
+tbody th, thead th:first-child {
+  display: none;
+}
