@@ -115,12 +115,16 @@ header {
 
 .votedate {
   grid-area: votedate;
+  /*Temporary margin for hidden calendar*/
+  margin-right: -2em;
 }
 
 .calendar {
   grid-area: calendar;
   text-align: right;
   border: 4px solid #222;
+/*hide calendar for now*/
+  display: none;
 }
 
 .calendar #plus {
