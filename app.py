@@ -15,5 +15,9 @@ def show_tables():
 def bc_politics_explained_easy():
     return render_template('bc-politics-explained-easy.html')
 
+@app.route("/the-importance-of-voting/")
+def importance_of_voting():
+    return render_template('the-importance-of-voting.html')
+
 if __name__ == "__main__":
     app.run(debug=True)

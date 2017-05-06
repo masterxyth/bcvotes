@@ -56,7 +56,7 @@ p {
 nav a {
   font-weight: bold;
   text-transform: uppercase;
-  display: block;
+  /*display: block;*/
 }
 
 nav ul {
@@ -192,7 +192,7 @@ article {
     padding-left: 1em;
     padding-right: 1em;
     margin-left: -1em;
-    margin-right: 1em;
+    margin-right: 2em;
   }
   nav {
 
